@@ -1,0 +1,196 @@
+<!doctype html>
+<html><head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css" />	
+		<script type="text/javascript">
+			function abrirsm(){
+				document.getElementById('sobremim').style.display = 'block';
+			}
+			function fecharsm(){
+				document.getElementById('sobremim').style.display =  'none';
+			}
+			function abrirf(){
+				document.getElementById('formacao').style.display = 'block';
+			}
+			function fecharf(){
+				document.getElementById('formacao').style.display =  'none';
+			}
+			function abrirp(){
+				document.getElementById('portifolio').style.display = 'block';
+			}
+			function fecharp(){
+				document.getElementById('portifolio').style.display =  'none';
+			}
+			function abrirc(){
+				document.getElementById('contato').style.display = 'block';
+			}
+			function fecharc(){
+				document.getElementById('contato').style.display =  'none';
+			}
+		</script>
+		<link rel="shortcut icon" href="icon.png" type="image/x-icon"/>
+		<style type="text/css">
+			.menu ul li{
+				background-color: #3d39e1;
+				float: left;
+				width: 25%;
+				height: 40px;
+				display: inline-block;
+				text-align:center;
+				vertical-align:central;
+				font-size: 20px;
+				font-family: "Palatino Linotype", "Book Antiqua";
+				font-weight: bold;
+				position: relative;
+	
+			}
+
+			.menu ul li:hover{
+				background-color: #38251F;
+			}
+
+			.menu ul{
+				padding: 0px;
+			}
+
+			.menu ul ul{
+				display: none;
+			}
+
+			.menu ul li:hover > ul{
+				display:block;
+			}
+
+			.menu ul ul ul{
+				margin-left: 201px;
+				top: 0px;
+				position: absolute;
+			}
+
+			.menu ul ul li:hover{
+				top: 0px;
+				background-color: #38251F;
+			}
+
+			.menu ul ul ul li:hover{
+				top: 0px;
+				background-color: #38251F;
+			}
+
+			.menu a{
+				color: white;
+				text-decoration: none;
+			}
+			body{
+				background-color: #00040f;
+				color: white;
+			}
+        </style>
+<title>Trabalho de Fundamentos da Programação Web</title>
+	</head>
+	
+	<body>
+		<div class="banner" align="center">
+			<img src="banner.jpg" width="100%">
+		</div>
+		
+		<nav class="menu">
+			<div class="menu" align="center">
+				<ul>
+					<a href="javascript: fecharf(); javascript: fecharp() ; javascript: fecharc() ; javascript: abrirsm()"><li>Sobre Mim</li></a>
+					<a href="javascript: fecharsm(); javascript: fecharp() ; javascript: fecharc() ; javascript: abrirf()"><li>Formação</li></a>
+					<a href="javascript: fecharsm(); javascript: fecharf() ; javascript: fecharc() ; javascript: abrirp()"><li>Portifolio</li></a>
+					<a href="javascript: fecharsm(); javascript: fecharf() ; javascript: fecharp() ; javascript: abrirc()"><li>Contato</li></a>
+				</ul>
+			</div>
+		</nav>
+		
+<br/><br/><br/><br/><br/>
+		
+		<div id="sobremim" class="sobremim" align="center">
+			<h1>
+				Sobre Mim
+			</h1>
+			<p>Sou um indivíduo com um amor profundo pela programação, jogos, leitura e música. Minha paixão pela programação não é apenas uma profissão, mas também um hobby,<br> 
+			demonstrando meu compromisso e entusiasmo pela área. Quando não estou imerso em linhas de código, posso ser encontrado explorando mundos virtuais em jogos,<br> 
+			mergulhando em livros fascinantes ou me perdendo no ritmo de uma melodia cativante.
+
+			<p>Minha habilidade para alternar entre esses interesses diversos mostra minha versatilidade e capacidade de me adaptar a diferentes ambientes e situações.<br> 
+			Meu amor pela leitura aprimora minha capacidade de aprender continuamente e absorver novas informações,<br>
+			uma habilidade inestimável no campo em constante evolução da programação.
+		</div>
+		
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		
+		
+		<div id="formacao" class="formacao" align="center">
+			<h1>
+				Formação
+			</h1>
+					<li>2022 – Ensino Médio - Colégio Serrano Guardia</li>
+					<li>2023 - 2025 – Curso Superior- Analise e Desenvolvimento de Sistemas - Uninter</li>
+				
+
+			<h2>COMPETÊNCIAS</h2>
+				
+					<li>HTML</li>
+					<li>HTML5</li>
+					<li>CSS</li>
+					<li>PHP</li>
+					<li>SQL</li>
+					<li>Javascript</li>
+					<li>C++</li>
+					<li>Python</li>
+					<li>Java</li>
+				
+
+			<h2>CURSOS PROFISSIONALIZANTES</h2>
+					<li>Técnico em Desenvolvimento de sistemas</li>
+					<li>Arquitetura de Sistemas Computacionais</li>
+					<li>Banco de Dados</li>
+					<li>Desenvolvimento de Sistemas</li>
+					<li>Ferramentas de Desenvolvimento web</li>
+					<li>Linguagens de Programação Web</li>
+					<li>Lógica e Programação Básica</li>
+					<li>Programação Avançada</li>
+
+			<h2>IDIOMAS</h2>
+					<li>Português- Nativo</li>
+					<li>Inglês- Intermediário</li>
+					<li>Espanhol- Básico</li>
+		</div>
+		
+		<div id="portifolio" class="portifolio" align="center">
+			<h1>
+				Portifolio
+			</h1>
+			Gammer Dream: <a href="https://davi20044.github.io/GammerDream/">https://davi20044.github.io/GammerDream/<a/><br><br>
+			
+			GitHub: <a href="https://github.com/Davi20044?tab=repositories">https://github.com/Davi20044?tab=repositories<a/>
+		</div>
+		
+		<div id="contato" class="contato" align="center">
+			<h1>
+				Contato
+			</h1>
+			<form name="form">
+				<table width="70%" border="0" align="center">
+					<tr>
+						<td>Nome:<input type="text" name="nome" size="50"></td>
+						<td>E-mail:<input type="text" name="email" size="50"></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center"> <br>Mensagem:<br><br>
+							<textarea name="conteudo" cols="126" rows="10"></textarea>
+						</td>
+					</tr>
+					<tr> 
+						<td colspan="2" align="center"> <input type="submit" value="Enviar"></td>
+					</tr>
+				</table></a>
+			</form>
+
+		</div>
+	</body>
+	
+</html>
